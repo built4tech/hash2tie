@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-#-------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
 # Name:        hash2tie.py
 # Purpose:     Send hash information to McAfee TIE
 #
@@ -9,11 +9,22 @@
 #
 # Created:     06/06/2016
 # Copyright:   (c) Carlos M 2016
-#-------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
 # Pendiente: Desarrollo de fihero ejecutable
-#-------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
 # Version: V.0.0.1
-#-------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------------------------------
+# PROCESO DE REPLICA EN GIT
+#
+# git status        --> Muestra el estado de sincronizacion de los distintos archivos
+# git add file_name --> Añade un archivo a ser incorporado en la siguiente sincronizacion
+# git commit -m "comentario" --> Comentario que queda registrado en bitbucket sobre el commit
+# git push -u origin master  --> Sube el archivo al que previamente hemos hecho add a bitbucket
+# -----------------------------------------------------------------------------------------------
+
 
 import mcafee
 import argparse
